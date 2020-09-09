@@ -5,6 +5,6 @@ cd mydir2
 touch myfile
 echo "Hello Bash" > myfile
 cat myfile
-cd - 
+cd ..
 cp -r mydir2 mydir3
 find . | sort -r
